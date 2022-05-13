@@ -77,8 +77,6 @@ I generally like to trade credit spreads with a 4-5 week expiry whenever I see t
 <!-- Problems I Faced -->
 ## Problems I Faced
 
-This is an example of how you may give instructions on setting up your project locally.
-
 ### No Exit "Strategy"
 Most sample trading strategies I found online were for trading a stock itself, not its options. So, they would exit their position once another signal or condition has been met. But that would create too many variables in trying to determine the profits of a spread. ("What expiry date do I pick?", "What if the sell condition doesn't occur until after the expiry date?", etc.) Then I remembered a tastytrades video that said theta starts to decay faster around 45 days until expiration date. So, since my data doesn't count weekends, I chose the first expiration date closest to 5 weeks out.
 
